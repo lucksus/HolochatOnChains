@@ -1,7 +1,9 @@
 # Holochat on Chains
-This is an example project showing how I would like to write Holochain apps. (see https://github.com/metacurrency/holochain)
+This is an example Holochain app project showing how I would like to write Holochain apps. (see https://github.com/metacurrency/holochain)
 
 This is WIP and based off of https://github.com/holochain/holochat. The plan is to port everything over from Holochat and then change Holochain so this app can be run by it.
+
+I chose ECMAScript 6 as the language for all config and application files. Even for the DNA itself. Everything is runnable code and much better to read than JSON files. Ultimately I'd like to do this in Ruby but we already have a JS ribosome and that should get updated to ES6 anyway ;P
 
 ## Entry Type Definitions
 Main difference is that entry types are being defined by
